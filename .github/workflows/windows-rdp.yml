@@ -1,5 +1,9 @@
 name: Windows Cloud RDP + Tailscale Exit Node
 
+permissions:
+  actions: write
+  contents: read
+  
 on:
   workflow_dispatch:
 
